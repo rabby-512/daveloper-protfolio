@@ -1,0 +1,57 @@
+/* dhsred style */
+  body {
+        font-family: "ABeeZee", serif;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
+      
+      
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+display: flex;
+align-items: center;
+
+}
+nav li {
+    list-style: none;
+
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--dark-02);
+}
+.nav-taitel{
+
+  
+    font-weight: 800;
+    font-size: 45px;
+    color: var(--dark-01);
+
+}
+
+.nar-r{
+
+
+    color: #fd6e0a;
+}
+
+.button-praimary{
+
+border-radius: 5px;
+   background: #fd6e0a;
+font-size: 20px;
+font-weight: 700;
+color: white;
+padding: 15px 35px;
+}
